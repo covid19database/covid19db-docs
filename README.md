@@ -13,7 +13,12 @@ Using a standard format (lat,lon,time,count) for the exposure database enables i
 
 This allows us to address both adoption and trust issues.
 
-- **Trust:** WHO/CDC/non-profit consortium should provide an open source "public option" app that does not depend on any third-parties and does the matching directly on the phone. This: a) removes the dependency on big tech, since people can always fall back to the public option, and b) it sidesteps accusations of govt-tech collusion. Alice cares about privacy, so she can use the public option, Bob cares about convenience, so he can use the Google/Verizon option that works with their existing data collection.
+- **Trust:** There can be multiple open source "public option" apps that do not depend on any third-parties and does the matching directly on the phone. This: a) removes the dependency on big tech, since people can always fall back to the public option, and b) it sidesteps accusations of govt-tech collusion. Alice cares about privacy, so she can use the public option, Bob cares about convenience, so he can use the Google/Verizon option that works with their existing data collection.
 - **Adoption:** Since the exposure database is public, and the matching algorithm is open source, any company can integrate with it to provide contact tracing as a service to their existing users. For example, Google could add a “COVID-19 exposure” section to Google Now, similar to the existing weather or stock sections. Timeline upload for positive users then fits into their business model of collecting data to provide services.
 
+### Pilots and partners
 
+We plan to run a small pilot at UC Berkeley using an integration with [our reference app](https://github.com/covid19database/phone-app). In parallel, we are reaching out to [other app providers](https://github.com/shankari/covid-19-tracing-projects) to encourage them to integrate with the database.
+
+### Contributing
+:construction:
