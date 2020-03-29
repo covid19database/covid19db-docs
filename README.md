@@ -27,4 +27,6 @@ git clone git@github.com:covid19database/covid19db-api.git
 pip install -r requirements.txt
 ```
 
+> If running this in conda, you must `conda install -c conda-forge uwsgi`, because uwsgi somehow doesn't play well with conda
+
 TODO: expand on -- nginx, uwsgi, flask
