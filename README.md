@@ -21,4 +21,10 @@ This allows us to address both adoption and trust issues.
 We plan to run a small pilot at UC Berkeley using an integration with [our reference app](https://github.com/covid19database/phone-app). In parallel, we are reaching out to [other app providers](https://github.com/shankari/covid-19-tracing-projects) to encourage them to integrate with the database.
 
 ### Contributing
-:construction:
+
+```
+git clone git@github.com:covid19database/covid19db-api.git
+pip install -r requirements.txt
+```
+
+TODO: expand on -- nginx, uwsgi, flask
