@@ -13,5 +13,9 @@ In the design of this service to exchange information, we are assuming users who
 We are looking to partner with each of the major app developers to help adapt our system design to their needs and to ensure that they can meaningfully exchange data using our system.  Since our strength is in the design of scalable data systems, we hope to complement the significant mobile application efforts already under development.  
 
 ## Contact us:
-- Prof. Joseph Gonzalez (jegonzal@berkeley.edu)
+- Prof. Joseph Gonzalez (jegonzal+covidb@berkeley.edu)
+- Dr. K. Shankari (shankari@berkeley.edu)
+- Johann Schleier-Smith(jssmith@berkeley.edu)
+- Nathan Pemberton (nathanp@berkeley.edu)
+- Alvin Wan (alvinwan@berkeley.edu)
 - or just read an outline of [our system spec](docs/DESIGN.md)
