@@ -16,8 +16,11 @@ api = Api(app, version='1.0', title='TraceMVC API',
 ns = api.namespace('traces', description='Trace operations')
 
 trace = api.model('Trace', {
-    'id': fields.Integer(readOnly=True, description='The trace unique identifier'),
-    'plus_codes': fields.String(required=True, description='pluscod.es')
+    'plus_codes': fields.String(required=True, description='pluscod.es'),
+    'unix_timestamp': fields.String(required=True, description='String representing Unix timestamp'),
+    'domain': fields.String(required=True, description='Domain name'),
+    'key': fields.String(required=True, description='String of map key'),
+    'value': fields.String(required=True, description='String containing value'),
 })
 
 class TraceDAO(object):
